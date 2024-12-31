@@ -15,9 +15,9 @@
 
 #define LOWER  MO(_LOWER)
 #define LOWENT LT(_LOWER, RET)
-#define LOWBK  &lt _LOWER, BSPC
+#define LOWBK  &lt _LOWER BSPC
 #define RAISE  MO(_RAISE)
-#define RAISBK &lt _RAISE, BSPC
+#define RAISBK &lt _RAISE BSPC
 #define ADJUST MO(_ADJUST)
 
 #define TABSFT MT(MOD_LSFT, KC_TAB)
